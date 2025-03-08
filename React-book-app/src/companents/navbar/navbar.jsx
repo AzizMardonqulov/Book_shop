@@ -29,10 +29,12 @@ export default function navbar() {
             <div className="navbar-left-1">
                 <div className="left-1">
                     <ul>
+                    <img src={NavbarLogo} alt="" />
                       <li><a className='active' href="">Home</a></li>
                       <li><a href="">About</a></li>
                       <li><a href="">Shop</a></li>
                       <li><a href="">Contact</a></li>
+                      <li><div className="close">x</div></li>
                     </ul>
                 </div>
                 <div className="left-2">
