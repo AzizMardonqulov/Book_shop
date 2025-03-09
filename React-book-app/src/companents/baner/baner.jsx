@@ -8,7 +8,7 @@ export default function baner() {
         <div className="baner-in">
             <div className="baner-lable">
                 <div className="baner-lable-1">Welcome to Pages!!!</div>
-                <div className="baner-lable-2">Your Books From The Best Writer.</div>
+                <div className="baner-lable-2">Your Books From <br /> The Best Writer.</div>
                 <div className="baner-lable-3">We believe that reading books are essential to a healthy culture. They’re where authors can connect with readers.</div>
                 <div className="baner-button">
                     <a href="#">Order Today</a>

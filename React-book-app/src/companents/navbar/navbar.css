@@ -104,7 +104,7 @@
 }
 .bars span{
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color: #fff;
     position:absolute;
     top: 0;
@@ -229,4 +229,9 @@
     .left-2-item-2{
         display: none;
     }
+}
+@media only screen and (max-width:400px) {
+ .navbar-star-item a   {
+    padding: 10px 10px;
+ }
 }

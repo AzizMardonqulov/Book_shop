@@ -7,6 +7,7 @@
     align-items: center;
     padding-left: 5rem;
     padding-right: 5rem;
+    padding-bottom: 2rem;
 }
 .baner-in{
     width: 100%;
@@ -125,4 +126,78 @@
 }
 .baner-page-1-lable-2{
     color: #b4c7e7;
+}
+@media only screen and (max-width:1358px) {
+    .baner-in{
+        flex-direction: column;
+        gap: 3rem;
+        padding-top: 10rem;
+    }
+    .baner-lable{
+        width: 60%;
+        padding-left: 2rem;
+    }
+}
+@media ONLY screen and (max-width:1136px) {
+    .baner-lable{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:746px){
+    .Baner{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media only screen and (max-width:653px) {
+    .baner-lable-2{
+        font-size: 3.5rem;
+    }
+    .baner-img{
+        width: 100%;
+    }
+    .baner-img img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:526px) {
+    .baner-lable-1{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+    }
+    .baner-lable-1::before{
+        left: -0rem;
+    }
+    .baner-lable-2{
+        font-size: 2.5rem;
+    }
+    .baner-lable-3{
+        font-size: 1.2rem;
+    }
+    .baner-page{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .baner-page-1{
+        width: 100px;
+    }
+    .baner-button a:first-child{
+        padding: 15px 20px;
+        font-size: 1rem;
+    }
+    .baner-button a:last-child{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:400px) {
+    .baner-lable-2{
+        font-size: 2rem;
+    }
+    .baner-lable-3{
+        font-size: 1rem;
+    }
+    .baner-button a:last-child{
+        font-size: 0.9rem;
+    }
 }
