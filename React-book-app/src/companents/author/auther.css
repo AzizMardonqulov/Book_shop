@@ -1,0 +1,114 @@
+.auther{
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+.auther-lable-1{
+    font-size: 2.5rem;
+    font-family: Cardo,sans-serif;
+    text-transform:capitalize;
+    font-weight: 600;
+    position: relative;
+}
+.auther-lable-1::before{
+    content: "";
+    position: absolute;
+    bottom: -0.8rem;
+    width: 15%;
+    height: 3px;
+    background-color: #ffca42;
+    left: 40%;
+}
+.auther-in{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:7rem;
+    gap: 5rem;
+}
+.auther-page{
+    width:100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.auther-page-1{
+    width: 50%;
+    display: flex;
+}
+.auther-page-img {
+    width: 50%;
+    box-shadow: 0px 0px  1em #969aa0b1;
+}
+.auther-page-img img{
+    width: 100%;
+}
+.auther-page-lable{
+    width: 50%;
+    height: 100%;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.auther-page-lable-1{
+    font-family: Cardo,sans-serif;
+    letter-spacing: .01em;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    transition: color .2s;
+    color: #1b3764;
+}
+.auther-page-lable-2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffca42;
+    margin-bottom: 1rem;
+}
+.auther-page-lable-3{
+    margin-bottom: 10px;
+    font-family: Inter,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #969aa0;
+    margin-bottom: 1rem;
+}
+.auther-page-lable-4{
+    font-family: Cardo,sans-serif;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    position: relative;
+    margin-bottom: 3rem;
+    font-weight: 600;
+    color: #222;
+}
+.auther-page-lable-4::before{
+    content: "";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #ffca42;
+    position: absolute;
+    left: -0.4rem;
+    top: 30%;
+}
+.auther-page-button a{
+    font-family: Cardo,sans-serif;
+    font-weight: 600;
+    padding: 20px 45px;
+    font-size: 20px;
+    border: 2px solid #ffca42;
+    color: #1b3764;
+}
+.auther-page-button a:hover{
+    background-color: #ffca42;
+}

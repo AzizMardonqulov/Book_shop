@@ -26,7 +26,7 @@ export default function auther() {
                     <div className="auther-page-img">
                         <img src={autherImg2} alt="" />
                     </div>
-                    <div className="auther-page-lable">
+                    <a href='#' className="auther-page-lable">
                         <a href='#' className="auther-page-lable-1">The Dark Light</a>
                         <div className="auther-page-lable-2">$ 13.84 USD</div>
                         <div className="auther-page-lable-3">As the book contains theoretical content as well as solved questions.</div>
@@ -34,7 +34,7 @@ export default function auther() {
                         <div className="auther-page-button">
                             <a href="#">Order Now</a>
                         </div>
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>
