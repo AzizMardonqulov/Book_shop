@@ -10,6 +10,14 @@ import { CiShoppingCart } from "react-icons/ci";
 
 
 export default function navbar() {
+  function medionavbar(){
+    let MedionNavbar = document.getElementById("MedionNavbar");
+    MedionNavbar.style.top="0";
+  }
+  function closeNav(){
+    let MedionNavbar = document.getElementById("MedionNavbar");
+    MedionNavbar.style.top="-100vh";
+  }
   return (
     <div className='Navbar'>
         <div className="navbar-star">
@@ -27,14 +35,14 @@ export default function navbar() {
         </div>
         <div className="navbar-left">
             <div className="navbar-left-1">
-                <div className="left-1">
+                <div className="left-1" id='MedionNavbar'>
                     <ul>
                     <img src={NavbarLogo} alt="" />
                       <li><a className='active' href="">Home</a></li>
                       <li><a href="">About</a></li>
                       <li><a href="">Shop</a></li>
                       <li><a href="">Contact</a></li>
-                      <li><div className="close">x</div></li>
+                      <li id='Bars' onClick={closeNav}><div className="close">x</div></li>
                     </ul>
                 </div>
                 <div className="left-2">
@@ -46,7 +54,7 @@ export default function navbar() {
                     </div>
                 </div>
                 <div className="left-3">
-                  <div className="bars">
+                  <div onClick={medionavbar} className="bars">
                     <span></span>
                   </div>
                 </div>
