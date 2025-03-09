@@ -5,7 +5,7 @@
     align-items: center;
     padding-left: 5rem;
     padding-right: 5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 4rem;
 }
 .auther-lable-1{
     font-size: 2.5rem;
@@ -111,4 +111,41 @@
 }
 .auther-page-button a:hover{
     background-color: #ffca42;
+}
+@media only screen and (max-width:1290px) {
+    .auther-page{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .auther-page-1{
+        width: 100%;
+        align-items: center;
+    }
+}
+@media only screen and (max-width:848px) {
+    .auther-page-1{
+        width: 100%;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .auther-page-img{
+        width: 100%;
+    }
+    .auther-page-lable{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:700px) {
+    .auther{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .auther-page-lable{
+        padding-left: 0.5rem;
+    }
+}
+@media only screen and (max-width:400px) {
+    .auther-lable-1{
+        font-size: 1.5rem;
+    }
 }
