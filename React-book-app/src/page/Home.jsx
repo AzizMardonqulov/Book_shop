@@ -3,6 +3,7 @@ import './Home.css'
 import Navbar  from '../companents/navbar/navbar'
 import Baner from '../companents/baner/baner'
 import Auther from '../companents/author/auther'
+import About from '../companents/about/about'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
           <Navbar />
           <Baner />
           <Auther />
+          <About / >
     </div>
   )
 }
