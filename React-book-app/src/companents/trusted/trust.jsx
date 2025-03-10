@@ -5,6 +5,7 @@ import trustImg2 from '../../assets/trust/2.png'
 import trustImg3 from '../../assets/trust/3.png'
 import trustImg4 from '../../assets/trust/4.png'
 import trustImg5 from '../../assets/trust/5.png'
+import trustImg6 from '../../assets/trust/6.jpg'
 
 export default function trust() {
   return (
@@ -59,6 +60,34 @@ export default function trust() {
                 </div>
                 <div className="trust-part-2-img">
                     <img src={trustImg5} alt="" />
+                </div>
+            </div>
+            <div className="trust-part-3">
+                <div className="trust-part-3-lable-1">
+                What Will You Learn?
+                </div>
+                <div className="trust-part-3-in">
+                 <div className="trust-part-3-in-blog">
+                    <div className="trust-part-3-in-blog-1">
+                        <div className="trust-part-3-in-blog-1-number">01</div>
+                        <div className="trust-part-3-in-blog-1-lable">Use HDFS & Map Reduce for storing & analyzing data at scale.</div>
+                    </div>
+                    <div className="trust-part-3-in-blog-1">
+                        <div className="trust-part-3-in-blog-1-number">02</div>
+                        <div className="trust-part-3-in-blog-1-lable">Consume streaming data using Spark Streaming, Flink, and Storm.</div>
+                    </div>
+                    <div className="trust-part-3-in-blog-1">
+                        <div className="trust-part-3-in-blog-1-number">03</div>
+                        <div className="trust-part-3-in-blog-1-lable">Choose an appropriate data storage technology for your application</div>
+                    </div>
+                    <div className="trust-part-3-in-blog-1">
+                        <div className="trust-part-3-in-blog-1-number">04</div>
+                        <div className="trust-part-3-in-blog-1-lable">Analyze non-relational data using HBase, Cassandra, and MongoDB.</div>
+                    </div>
+                 </div>
+                 <div className="trust-part-3-in-blog-img">
+                    <img src={trustImg6} alt="" />
+                 </div>
                 </div>
             </div>
         </div>
