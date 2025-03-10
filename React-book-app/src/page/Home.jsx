@@ -6,6 +6,7 @@ import Auther from '../companents/author/auther'
 import About from '../companents/about/about'
 import Trust from '../companents/trusted/trust'
 import Article from '../companents/article/article'
+import Futer from '../companents/futer/futer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           <About / >
           <Trust / >
           <Article / >
+          <Futer />
     </div>
   )
 }
