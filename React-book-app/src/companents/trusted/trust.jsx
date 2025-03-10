@@ -6,6 +6,9 @@ import trustImg3 from '../../assets/trust/3.png'
 import trustImg4 from '../../assets/trust/4.png'
 import trustImg5 from '../../assets/trust/5.png'
 import trustImg6 from '../../assets/trust/6.jpg'
+import trustImg7 from '../../assets/trust/7.jpg'
+import trustImg8 from '../../assets/trust/8.jpg'
+import trustImg9 from '../../assets/trust/9.jpg'
 
 export default function trust() {
   return (
@@ -88,6 +91,94 @@ export default function trust() {
                  <div className="trust-part-3-in-blog-img">
                     <img src={trustImg6} alt="" />
                  </div>
+                </div>
+            </div>
+            <div className="trust-part-4">
+                <div className="trust-part-4-in">
+                    <div className="trust-part-4-lable">
+                        <div className="trust-part-4-lable-1">
+                        Words From Our <br />
+                        Readers
+                        </div>
+                        <div className="trust-part-4-lable-2">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</div>
+                        <div className="stars">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <div className="stars-lable">(4.8/5)</div>
+                        </div>
+                        <div className="trust-part-4-lable-3">Overall Customer Ratings</div>
+                    </div>
+                    <div className="trust-part-4-blog">
+                        <div className="blog-1">
+                        <div className="trust-part-4-blog-1">
+                                <div className="trust-part-4-blog-1-profil">
+                                    <div className="profil-img">
+                                        <img src={trustImg7} alt="" />
+                                    </div>
+                                    <div className="profil-lable">
+                                        <div className="profil-lable-1">James William</div>
+                                        <div className="prfil-star">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="trust-part-4-blog-1-lable">
+                                    <div className="trust-part-4-blog-1-lable-1">“ Great Books Collections ”</div>
+                                    <div className="trust-part-4-blog-1-lable-2">I was searching this book for many years and I was happy that I could find it here.</div>
+                                </div>
+                            </div>
+                            <div className="trust-part-4-blog-1">
+                                <div className="trust-part-4-blog-1-profil">
+                                    <div className="profil-img">
+                                        <img src={trustImg8} alt="" />
+                                    </div>
+                                    <div className="profil-lable">
+                                        <div className="profil-lable-1">John Doe</div>
+                                        <div className="prfil-star">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="trust-part-4-blog-1-lable">
+                                    <div className="trust-part-4-blog-1-lable-1">“ Great Books Collections ”</div>
+                                    <div className="trust-part-4-blog-1-lable-2">I was searching this book for many years and I was happy that I could find it here.</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div className="trust-part-4-blog-1">
+                            <div className="trust-part-4-blog-1-profil">
+                                <div className="profil-img">
+                                    <img src={trustImg9} alt="" />
+                                </div>
+                                <div className="profil-lable">
+                                    <div className="profil-lable-1">John Doe</div>
+                                    <div className="prfil-star">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="trust-part-4-blog-1-lable">
+                                <div className="trust-part-4-blog-1-lable-1">“ Great Books Collections ”</div>
+                                <div className="trust-part-4-blog-1-lable-2">I was searching this book for many years and I was happy that I could find it here.</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
