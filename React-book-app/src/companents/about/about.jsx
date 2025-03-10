@@ -9,6 +9,7 @@ export default function about() {
                 <img src={AboutImg} alt="" />
             </div>
             <div className="about-lable">
+                <div className="about-lable-in">
                 <div className="about-lable-1">About the Author</div>
                 <div className="about-lable-2">We believe that bookstores are essential to a healthy culture. They’re where authors can connect with readers, where we discover new writers, where children get hooked on the thrill of reading that can last a lifetime.</div>
                 <div className="about-page">
@@ -34,6 +35,7 @@ export default function about() {
                         <div className="about-bottom-lable-2">mail: <div className="color">johnabraham@gmail.com</div></div>
                         <div className="about-bottom-lable-2">Phone: (99) 505 22 21</div>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
