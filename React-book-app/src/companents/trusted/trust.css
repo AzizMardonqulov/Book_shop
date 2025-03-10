@@ -82,3 +82,17 @@
     color: #969aa0;
     font-family: Cardo,sans-serif;
 }
+@media only screen and (max-width:570px) {
+    .trust-lable-1{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:490px) {
+    .trust{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .trust-lable-1{
+        font-size: 1.5rem;
+    }
+}
