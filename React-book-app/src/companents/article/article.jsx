@@ -1,7 +1,7 @@
 import React from 'react'
 import './article.css'
-import ArticleImg1 from '../../assets/article/3.jpg'
-import ArticleImg2 from '../../assets/article/3.jpg'
+import ArticleImg1 from '../../assets/article/1.jpg'
+import ArticleImg2 from '../../assets/article/2.jpg'
 import ArticleImg3 from '../../assets/article/3.jpg'
 
 export default function article() {
@@ -34,7 +34,7 @@ export default function article() {
             </div>
             <div className="article-blog-1">
                 <div className="article-blog-1-img">
-                <img src={ArticleImg1} alt="Article Image 1"/>
+                <img src={ArticleImg2} alt="Article Image 1"/>
                 </div>
                 <div className="article-blog-1-lable">
                     <div className="article-blog-1-lable-1">
@@ -55,7 +55,7 @@ export default function article() {
             </div>
             <div className="article-blog-1">
                 <div className="article-blog-1-img">
-                <img src={ArticleImg1} alt="Article Image 1"/>
+                <img src={ArticleImg3} alt="Article Image 1"/>
                 </div>
                 <div className="article-blog-1-lable">
                     <div className="article-blog-1-lable-1">
