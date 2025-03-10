@@ -4,6 +4,7 @@ import Navbar  from '../companents/navbar/navbar'
 import Baner from '../companents/baner/baner'
 import Auther from '../companents/author/auther'
 import About from '../companents/about/about'
+import Trust from '../companents/trusted/trust'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
           <Baner />
           <Auther />
           <About / >
+          <Trust / >
     </div>
   )
 }
