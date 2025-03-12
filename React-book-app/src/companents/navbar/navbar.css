@@ -231,7 +231,7 @@
     }
 }
 @media only screen and (max-width:400px) {
- .navbar-star-item a   {
+ .navbar-star-item a{
     padding: 10px 10px;
  }
 }

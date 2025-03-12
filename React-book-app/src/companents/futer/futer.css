@@ -1,12 +1,208 @@
-.futer{
+input{
+    padding-left: 1rem;
+     outline: none;
+}
+.futer{ 
     width: 100%;
-    height: fit-content;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 2rem;
 }
 .futer-part-1{
+    padding-right: 5rem;
+    padding-left: 5rem;
+    margin-bottom: 9rem;
+}
+.futer-part-1-in{
     width: 100%;
+    background-color: #ffca42;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.futer-part-1-lable-1{
+    font-size: 3rem;
+    color: #1b3764;
+    font-family: Cardo,sans-serif;
+    text-align: center;
+    position: relative;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+.futer-part-1-lable-1::before{
+    content: "";
+    width: 10%;
+    height: 2px;
+    background-color: #1b3764;
+    position: absolute;
+    left: 40%;
+    bottom: -1rem;
+}
+.futer-part-1-lable-2{
+    color: #1b3764;
+    letter-spacing: .05em;
+    text-transform: capitalize;
+    padding-left: 14px;
+    font-family: "Poppins";
+    font-size: 1.1rem;
+    padding-left: 3rem;
+    position: relative;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+.futer-input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.futer-input input{
+    width: 40%;
+    height: 60px;
+    border: 0px;
+    font-size: 16px;
+}
+.futer-input a{
+    padding: 17px 40px;
+    background-color: #1b3764;
+    border: 2px solid #1b3764;
+    color: #fff;
+}
+.futer-input a:hover{
+    background-color: transparent;
+    color: #1b3764;
+}
+@media only screen and (max-width:948px) {
+    .futer-part-1-in{
+        width: 100%;
+    }
+    .futer-input{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .futer-input input{
+        width: 90%;
+    }
+    .futer-input a{
+        padding: 20px 40%;
+    }
+}
+@media only screen and (max-width:772px) {
+    .futer-part-1-lable-1{
+        font-size: 2rem;
+    }
+    .futer-part-1-lable-2{
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width:619px) {
+     .futer-input a{
+        padding: 20px 37%;
+     }
+}
+@media only screen and (max-width:400px) {
+    .futer-part-1-lable{
+        padding-left: 0;
+    }
+    .futer-part-1-lable-2{
+        padding-left: 0;
+    }
+    .futer-part-1-lable-1{
+        font-size: 1.5rem;
+    }
+    .futer-part-1-lable-2{
+        font-size: 0.9rem;
+    }
+}
+.futer-part-2{
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     padding-left: 5rem;
     padding-right: 5rem;
+    background-color: #1b3764;
 }
+.futer-part-2 ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.futer-part-2 ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.navbar-star-item ul{
+    display: flex;
+    gap: 1rem;
+}
+.navbar-star-item ul li a{
+    background-color: transparent;
+    border:1px solid #ffca42;
+    color: #fff;
+}
+.futer-ul-1{
+    display: flex !important;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.futer-part-2-lable-1{
+    font-size: 24px;
+    color: #fff;
+    font-family: Cardo,sans-serif;
+}
+.futer-ul-1 li a {
+    color:#b4c7e7;
+    font-size: 18px;
+}
+.futer-ul-1 li a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.futer-ul-1:last-child li{
+    display: flex;
+}
+.futer-ul-1 li div:first-child{
+    color: #fff;
+    font-family: Cardo,sans-serif;
+    font-size: 20px;
+}
+.futer-ul-3  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.futer-ul-3 li{
+    display: flex;
+}
+.futer-ul-3 li div{
+    display: flex;
+    gap: 4rem;
+}
+.futer-ul-3 li div div:first-child{
+    color: #fff;
+    font-size: 18px;
+}
+.futer-ul-3 li div div:last-child{
+    color: #b4c7e7;
+    font-size: 16px;
+}
+    .futer-part-2 ul{
+        flex-wrap: wrap;
+    }
+    @media only screen and (max-width:731px) {
+        .futer-part-1{
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+        .futer-part-2{
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+    }
