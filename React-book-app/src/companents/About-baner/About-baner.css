@@ -1,0 +1,44 @@
+.About-baner{
+    width: 100%;
+    padding-top: 9rem;
+    padding-bottom: 13rem;
+    background-color:#1b3764 ;
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.about-baner-lable{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.about-baner-lable-1{
+    font-size: 3rem;
+    color: #f6f8fc;
+
+    font-family: Cardo,sans-serif;
+    position: relative;
+    margin-bottom: 2.5rem;
+}
+.about-baner-lable-1::before{
+    content: "";
+    width: 18%;
+    height: 3px;
+    bottom: -1rem;
+    left: 40%;
+    background-color: #ffca42;
+    position: absolute;
+}
+.about-baner-lable-2{
+    text-align: center;
+    font-size: 1.2rem;
+    color: #b4c7e7;
+}
+@media only screen and (max-width:600px) {
+    .about-baner-lable-2 br{
+        display: none;
+    }
+}

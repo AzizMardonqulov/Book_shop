@@ -38,10 +38,10 @@ export default function navbar() {
                 <div className="left-1" id='MedionNavbar'>
                     <ul>
                     <img src={NavbarLogo} alt="" />
-                      <li><a className='active' href="">Home</a></li>
-                      <li><a href="">About</a></li>
-                      <li><a href="">Shop</a></li>
-                      <li><a href="">Contact</a></li>
+                      <li><a className='active items' href="/">Home</a></li>
+                      <li><a className='items' href="/about">About</a></li>
+                      <li><a className='items' href="">Shop</a></li>
+                      <li><a className='items' href="">Contact</a></li>
                       <li id='Bars' onClick={closeNav}><div className="close">x</div></li>
                     </ul>
                 </div>
