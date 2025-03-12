@@ -1,0 +1,144 @@
+.about-in1{
+    width: 100%;
+    height: fit-content;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+    background-color: #f6f8fc;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-in-part-1-img{
+    width: 100%;
+    box-shadow: 0px 0px 1em #2222223c;
+}
+.about-in-part-1-img img{
+    width: 100%;
+}
+.about-in-part-1{
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+}
+.about-in-part-1-lable{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+.about-in-part-1-lable-blog-1{
+    width: 35%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: #fff;
+    box-shadow: 0px 0px 1em #2222223c;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.about-in-part-1-lable-blog-2{
+    width: 60%;
+}
+.about-in-part-1-lable-blog-1-lable-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about-in-part-1-lable-blog-1-lable-1 h2{
+    font-size: 20px;
+    font-family: Cardo,sans-serif;
+    color: #222;
+}
+.about-in-part-1-lable-blog-1-lable-1 h2:last-child{
+    color: #969aa0;
+    font-family: "Poppins";
+    font-weight: 400;
+}
+.about-in-part-1-lable-blog-2-lable-1{
+    font-size: 2.5rem;
+    font-family: Cardo,sans-serif;
+    position: relative;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+.about-in-part-1-lable-blog-2-lable-2{
+    font-size: 1.2rem;
+    color: #969aa0;
+    margin-bottom: 4rem;
+}
+.about-in-part-1-lable-blog-2-lable-1::before{
+    content: "";
+    position: absolute;
+    width:5%;
+    height: 3px;
+    bottom: -1rem;
+    background-color: #ffca42;
+}
+.about-in-part-1-lable-blog-2-button a:hover{
+    color: #ffca42;
+}
+.about-in-part-1-lable-blog-2-button a{
+    padding: 20px 35px;
+    background-color: #ffca42;
+    border: 1px solid #ffca42;
+    color: #1b3764;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+}
+.about-in-part-1-lable-blog-2-button a:hover{
+    background-color: #1B3764;
+    color: #ffca42;
+    border-color: #1B3764;
+}
+@media only screen and (max-width:1314px) {
+    .about-in-part-1-lable{
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .about-in-part-1-lable-blog-1{
+        width: 100%;
+    }
+    .about-in-part-1-lable-blog-2{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:933px) {
+    .about-in-part-1-lable-blog-2-lable-2 br{
+        display: none;
+    }
+}
+@media only screen and (max-width:744px) {
+    .about-in{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media only screen and (max-width:539px) {
+    .about-in-part-1-lable-blog-2-lable-1{
+        font-size: 2rem;
+    }
+    .about-in-part-1-lable-blog-2-lable-2{
+        font-size: 0.9rem;
+    }
+    .about-in-part-1-lable-blog-1-lable-1 h2{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:427px) {
+    .about-in-part-1-lable-blog-1{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .about-in-part-1-lable-blog-1-lable-1 h2{
+        font-size: 0.9rem;
+    }
+    .about-in-part-1-lable-blog-2-lable-1{
+        font-size: 1.7rem;
+    }
+}

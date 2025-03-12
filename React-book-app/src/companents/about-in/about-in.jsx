@@ -4,7 +4,7 @@ import AboutPart1Img from '../../assets/about/2.jpg'
 import Logos from '../../assets/about/logos.jpg'
 export default function aboutIn() {
   return (
-    <div className='about-in'>
+    <div className='about-in1'>
         <div className="about-in-part-1">
             <div className="about-in-part-1-img">
                 <img src={AboutPart1Img} alt="" />
@@ -18,6 +18,9 @@ export default function aboutIn() {
                         <h2>Language:</h2><h2>English</h2>
                     </div>
                     <div className="about-in-part-1-lable-blog-1-lable-1">
+                        <h2>First Publication:</h2><h2>1991</h2>
+                    </div>
+                    <div className="about-in-part-1-lable-blog-1-lable-1">
                         <h2>Genre:</h2><h2>Historical</h2>
                     </div>
                     <div className="about-in-part-1-lable-blog-1-lable-1">
@@ -26,7 +29,7 @@ export default function aboutIn() {
                 </div>
                 <div className="about-in-part-1-lable-blog-2">
                     <div className="about-in-part-1-lable-blog-2-lable-1">About Dr. John Abraham</div>
-                    <div className="about-in-part-1-lable-blog-2-lable-1">An author, a website or magazine, have a an organization that wants to recommend books, or even just a book-lover with an Instagram feed, you can sign up to be an affiliate, start your own shop, and be rewarded for your advocacy of books.</div>
+                    <div className="about-in-part-1-lable-blog-2-lable-2">An author, a website or magazine, have a an organization that wants <br /> to recommend books, or even just a book-lover with an Instagram feed, you can <br /> sign up to be an affiliate, start your own shop, and be rewarded for your advocacy of books.</div>
                     <div className="about-in-part-1-lable-blog-2-button">
                         <a href="">Contack Now</a>
                     </div>
