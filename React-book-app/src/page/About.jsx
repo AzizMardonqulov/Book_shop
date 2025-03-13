@@ -13,6 +13,10 @@ export default function About() {
         <Navbar />
         <AboutBaner />
         <AboutIn />
+        <Auther />
+        <Trust />
+        <Article />
+        <Futer />
     </div> 
     );
 }
