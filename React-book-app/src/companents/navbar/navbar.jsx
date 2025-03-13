@@ -40,7 +40,7 @@ export default function navbar() {
                     <img src={NavbarLogo} alt="" />
                       <li><a className='active items' href="/">Home</a></li>
                       <li><a className='items' href="/about">About</a></li>
-                      <li><a className='items' href="">Shop</a></li>
+                      <li><a className='items' href="/shop">Our Store</a></li>
                       <li><a className='items' href="">Contact</a></li>
                       <li id='Bars' onClick={closeNav}><div className="close">x</div></li>
                     </ul>
