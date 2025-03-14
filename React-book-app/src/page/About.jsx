@@ -6,6 +6,7 @@ import Auther from '../companents/author/auther'
 import Trust from '../companents/trusted/trust'
 import Article from '../companents/article/article'
 import Futer from '../companents/futer/futer'
+import './About.css'
 
 export default function About() {
   return (

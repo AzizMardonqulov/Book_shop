@@ -296,3 +296,15 @@
         font-size:0.7rem;
     }  
 }
+.trust-part-3{
+    display: none;
+}
+.trust-part-4{
+    display: none;
+}
+.active{
+    color: #fff;
+}
+.items:nth-child(2){
+    color: #ffca42;
+}
